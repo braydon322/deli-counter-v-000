@@ -15,7 +15,7 @@ def line(deli)
   else
     puts "The line is currently empty."
   end
-  
+
 end
 
 def now_serving(deli)
