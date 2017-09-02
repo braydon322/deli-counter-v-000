@@ -1,7 +1,8 @@
 # Write your code here.
 def take_a_number(deli, name)
-puts deli.index(name)
+
 puts "Welcome, #{name}. You are number #{location} in line."
+puts deli.index(name)
 end
 
 def line(deli)
