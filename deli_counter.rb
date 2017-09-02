@@ -2,7 +2,7 @@
 def take_a_number(deli, name)
 deli.push(name)
 location = deli.size
-if deli.size > 0 ?
+if deli.size > 0
   puts "Welcome, #{name}. You are number #{location} in line."
 else
   puts "The line is currently empty."
