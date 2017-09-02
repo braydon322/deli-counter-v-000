@@ -1,7 +1,7 @@
 # Write your code here.
 def take_a_number(deli, name)
 deli.push(name)
-location = deli.size + 1
+location = deli.size
 puts "Welcome, #{name}. You are number #{location} in line."
 end
 
