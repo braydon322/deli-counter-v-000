@@ -25,6 +25,9 @@ def line(deli)
 end
 
 def now_serving(deli)
-puts "Currently serving #{deli[0]}."
-deli.shift
+if deli.size > 0
+  puts "Currently serving #{deli[0]}."
+  deli.shift
+else
+  puts "The line is currently empty."
 end
