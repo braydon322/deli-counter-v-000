@@ -11,7 +11,12 @@ end
 
 def line(deli)
   if deli.size > 0
-    puts deli
+    counter = 0
+    while 0 < deli.size
+      deli[counter] = "#{counter}. " + deli[counter]
+      counter += 1
+    end
+    puts "The line is currently: #{deli}"
   else
     puts "The line is currently empty."
   end
