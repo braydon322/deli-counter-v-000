@@ -1,6 +1,6 @@
 # Write your code here.
 def take_a_number(deli, name)
-location = deli.index("#{name}") + 1
+location = deli.index(name)
 puts "#{name}: #{location}"
 end
 
