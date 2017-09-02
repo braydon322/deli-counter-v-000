@@ -9,4 +9,5 @@ def line(deli)
 end
 
 def now_serving(deli)
+  deli.shift
 end
