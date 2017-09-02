@@ -1,6 +1,6 @@
 # Write your code here.
 def take_a_number(katz_deli, name)
-  
+
 end
 def take_a_number(other_deli, name)
 end
