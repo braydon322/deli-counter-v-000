@@ -17,7 +17,7 @@ def line(deli)
       deli[counter] = "#{location}. " + deli[counter]
       counter += 1
     end
-    puts "The line is currently: #{deli.to_s}"
+    puts "The line is currently: #{deli.join}"
   else
     puts "The line is currently empty."
   end
