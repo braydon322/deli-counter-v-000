@@ -28,6 +28,6 @@ def now_serving(deli)
     puts "Currently serving #{deli[0]}."
     deli.shift
   else
-    puts "The line is currently empty."
+    puts "There is nobody waiting to be served!"
   end
 end
