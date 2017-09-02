@@ -3,9 +3,11 @@ def take_a_number
 end
 def take_a_number
 end
-def line
+def line(katz_deli)
 end
-def line
+def line(other_deli)
+end
+def line(another_deli)
 end
 def now_serving
 end
